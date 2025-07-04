@@ -1,0 +1,92 @@
+* {
+  font-family: "Montserrat", sans-serif ;
+  
+}
+
+h1 {
+    text-align: center;
+    background-color: red;
+    color:white;
+    margin-top: 0;
+
+}
+
+.navbar {
+  margin-top: 0%;         /* 👈 This makes it stay on top */
+  position: sticky;     
+  top: 0;               /* 👈 Sticks it to the top */
+  background-color: #ffffff;
+  display: flex;        /* 👈 Flexbox used here */
+  align-items: center;
+  padding: 10px;
+  z-index: 1000;        /* 👈 Keeps it on top of other content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 👈 shadow effect */
+  border-top: 3px solid #ff3e3e;            /* 👈 top line */
+  border-bottom: 3px solid #ff3e3e;         /* 👈 bottom line */
+  
+}
+.logo {
+  border: 2px solid rgba(56, 39, 39, 0.478);
+  
+}
+
+.about {
+      background-color: #ff0000;
+      color: #ffffff;
+      height: 40px;
+      width: 100px;
+      border-color: red;
+      border-radius: 4px;
+      font-weight: 800;
+      margin-top: 5px;
+      cursor:pointer;
+      font-family: "Montserrat", sans-serif;
+
+}
+
+.shop {
+      background-color: rgb(17, 17, 158);
+      color: #ffffff;
+      height: 40px;
+      width: 100px;
+      border-color: rgb(17, 17, 158)e;
+      border-radius: 4px;
+      font-weight: 800;
+      margin-top: 6px;
+      cursor: pointer;
+      margin-left: 10px;
+
+
+}
+
+.about:hover {
+  background-color: rgb(153, 41, 41);
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.shop:hover {
+  background-color: rgb(14, 14, 75);
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+
+.menu {
+  margin-left: 30px;
+  margin-top: 6px;
+}
+
+.middle {
+  background-image: url(/Images/WhatsApp\ Image\ 2025-07-04\ at\ 16.18.27_edeecd5e.jpg) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  
+}
+.button-wrapper {
+  margin-left: auto; /* Pushes buttons to the right */
+  display: flex;
+  align-items: center;
+}
